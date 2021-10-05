@@ -1,0 +1,87 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat-Bold";
+}
+
+p {
+    color: white;
+}
+
+
+/* Headings */
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* Containers */
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.title-image {
+    width: 80%;
+    position: absolute;
+    right: 10%;
+}
+
+.title {
+    padding-bottom: 3%;
+}
+
+.vit-ap {
+    padding-bottom: 4%;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+@media (max-width: 1028px) {
+    .title {
+        padding-bottom: 7%;
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+    }
+}
+
+.obj_head {
+    padding-bottom: 3%;
+}
+
+.targ_head {
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
